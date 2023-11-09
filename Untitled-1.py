@@ -25,15 +25,15 @@ def fungsi_4():
         else:
             print("*" * 7)
 
-pilihan = int(input("Pilih fungsi = "))
+pilih = int(input("Pilih fungsi = "))
 
-if pilihan == 1:
+if pilih == 1:
     fungsi_1()
-elif pilihan == 2:
+elif pilih == 2:
     fungsi_2()
-elif pilihan == 3:
+elif pilih == 3:
     fungsi_3()
-elif pilihan == 4:
+elif pilih == 4:
     fungsi_4()
 else:
     print("Pilihan tidak valid. Pilih antara 1, 2, 3, atau 4.")
